@@ -6,6 +6,7 @@ body {
   justify-content: center;
   min-width: 100vw;
   min-height: 100vh;
+  background-color: black;
 }
 
 
@@ -39,6 +40,7 @@ form {
 
 input {
   padding: 5px;
+  background-color: rgb(107, 106, 106);
 }
 
 .bookshelfDiv {
@@ -58,6 +60,7 @@ input {
   align-items: center;
   justify-content: center;
   padding: 20px;
+  color: white;
 }
 
 .bookCardsDiv {
@@ -81,6 +84,9 @@ input {
   color: black;
 }
 
+.bookCard span {
+  font-weight: bold;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
@@ -94,4 +100,15 @@ input {
 
 .read-the-docs {
   color: #888;
+}
+
+h1 {
+  color: white;
+}
+
+button {
+  margin-top: 10px;
+  background-color: rgb(161, 29, 161);
+  padding: 5px 20px;
+  color: white;
 }
